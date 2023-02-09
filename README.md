@@ -1,9 +1,9 @@
 # micalculadora-jsp
 Aplicación web de calculadora con operaciones básicas, construida sobre JAVA WEB, JSP, SERVLET, HTML
 
-![img](https://raw.githubusercontent.com/dugadev17/micalculadora-jsp/master/web/img/1.png?token=GHSAT0AAAAAAB2YHJZ7QXMET5B4D2XQOJIGY7END2Q)
+![img](https://github.com/dugadev17/micalculadora-jsp/blob/master/web/img/1.png)
 
-![img](https://raw.githubusercontent.com/dugadev17/micalculadora-jsp/master/web/img/2.png?token=GHSAT0AAAAAAB2YHJZ6KGEZ74TNTFZCQMWAY7ENECQ)
+![img](https://github.com/dugadev17/micalculadora-jsp/blob/master/web/img/2.png)
 
 ```java
 
