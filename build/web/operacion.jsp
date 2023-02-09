@@ -75,7 +75,7 @@
                             </div>
 
 
-                            <div class="mb-3">
+                           <div class="mb-3">
 
                                 <select name="opcion" class="form-select">
 
