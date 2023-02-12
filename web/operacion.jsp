@@ -63,14 +63,14 @@
                             <div class="mb-3">
 
                                 <label class="form-label">Primer numero :</label>
-                                <input type="text" class="form-control" name="num1" pattern="[0-9, .]+" value="<%=num1%>" required=""/>
+                                <input type="text" class="form-control" name="num1" pattern="[0-9]+" required=""/>
 
                             </div>
 
                             <div class="mb-3">
 
                                 <label class="form-label">Segundo numero :</label>
-                                <input type="text" class="form-control" name="num2" pattern="[0-9,.]+" value="<%=num2%>" required=""/>
+                                <input type="text" class="form-control" name="num2" pattern="[0-9]+" required=""/>
 
                             </div>
 
@@ -98,7 +98,7 @@
                             <div class="d-grid gap-2">
 
                                 <button type="submit" class="btn btn-warning" value="submit">Calcular</button>
-                                <a href="index.html" class="btn btn-info">Regresar</a>
+                                <a href="index.html" class="btn btn-info">Reiniciar</a>
 
                             </div>
 
