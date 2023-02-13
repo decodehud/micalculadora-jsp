@@ -5,7 +5,7 @@ Aplicación web de calculadora con operaciones básicas, construida sobre JAVA W
 
 ![img](https://github.com/dugadev17/micalculadora-jsp/blob/master/web/img/2.png)
 
-# html & bootstrap css
+# html & bootstrap V5.3 css
 
 ```html
  <form action="Servlet" method="POST">
