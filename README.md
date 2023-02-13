@@ -11,11 +11,23 @@ Aplicación web de calculadora con operaciones básicas, construida sobre JAVA W
  <form action="Servlet" method="POST">
   <div class="mb-3">
     <label class="form-label">Primer numero :</label>
-    <input type="text" class="form-control" name="num1" pattern="[0-9]+" required="" />
+    <input
+      type="text"
+      class="form-control"
+      name="num1"
+      pattern="[0-9]+"
+      required=""
+    />
   </div>
   <div class="mb-3">
     <label class="form-label">Segundo numero :</label>
-    <input type="text" class="form-control" name="num2" pattern="[0-9]+" required="" />
+    <input
+      type="text"
+      class="form-control"
+      name="num2"
+      pattern="[0-9]+"
+      required=""
+    />
   </div>
   <div class="mb-3">
     <select name="opcion" class="form-select">
@@ -26,9 +38,12 @@ Aplicación web de calculadora con operaciones básicas, construida sobre JAVA W
     </select>
   </div>
   <div class="d-grid">
-    <button type="submit" class="btn btn-warning" value="submit">Calcular</button>
+    <button type="submit" class="btn btn-warning" value="submit">
+      Calcular
+    </button>
   </div>
 </form>
+
 ```
 
 # Code java
