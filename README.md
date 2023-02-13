@@ -5,6 +5,46 @@ Aplicación web de calculadora con operaciones básicas, construida sobre JAVA W
 
 ![img](https://github.com/dugadev17/micalculadora-jsp/blob/master/web/img/2.png)
 
+```html
+ <form action="Servlet" method="POST">
+
+                            <div class="mb-3">
+
+                                <label class="form-label">Primer numero :</label>
+                                <input type="text" class="form-control" name="num1" pattern="[0-9]+" required=""/>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <label class="form-label">Segundo numero :</label>
+                                <input type="text" class="form-control" name="num2" pattern="[0-9]+" required=""/>
+
+                            </div>
+
+                            <div class="mb-3">
+
+                                <select name="opcion" class="form-select">
+
+                                    <option  value="suma" >Suma</option>
+                                    <option value="resta" >Resta</option>
+                                    <option value="multiplicacion">Multiplicacion</option>
+                                    <option value="division" >Division</option>
+
+                                </select>
+
+                            </div>
+
+
+                            <div class="d-grid">
+
+                                <button type="submit" class="btn btn-warning" value="submit">Calcular</button>
+
+                            </div>
+
+                        </form>
+```
+
 ```java
 
 int num1 = 0;
